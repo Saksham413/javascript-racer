@@ -1,0 +1,1001 @@
+ 1143  ./a.out Sample_Programs/arrInpParam code.asm 
+ 1144  nasm -felf64 code.asm && gcc -no-pie code.o -o code && ./code
+ 1145  ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm
+ 1146  make
+ 1147  ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm
+ 1148  make
+ 1149  ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm
+ 1150  make
+ 1151  ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm
+ 1152  make
+ 1153  ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm
+ 1154  make
+ 1155  ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm
+ 1156  make
+ 1157  ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm
+ 1158  make
+ 1159  ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm
+ 1160  ./a.out semanticAnalysis_Revised_testcases/t2.txt code.asm
+ 1161  make
+ 1162  ./a.out semanticAnalysis_Revised_testcases/t2.txt code.asm
+ 1163  ./a.out semanticAnalysis_Revised_testcases/t3.txt code.asm
+ 1164  ./a.out semanticAnalysis_Revised_testcases/t4.txt code.asm
+ 1165  ./a.out semanticAnalysis_Revised_testcases/t5.txt code.asm
+ 1166  ./a.out semanticAnalysis_Revised_testcases/t6.txt code.asm
+ 1167  make
+ 1168  ./a.out semanticAnalysis_Revised_testcases/t6.txt code.asm
+ 1169  ./a.out semanticAnalysis_Revised_testcases/t7.txt code.asm
+ 1170  make
+ 1171  ./a.out semanticAnalysis_Revised_testcases/t7.txt code.asm
+ 1172  make
+ 1173  ./a.out semanticAnalysis_Revised_testcases/t7.txt code.asm
+ 1174  make
+ 1175  ./a.out semanticAnalysis_Revised_testcases/t7.txt code.asm
+ 1176  make
+ 1177  ./a.out semanticAnalysis_Revised_testcases/t7.txt code.asm
+ 1178  ./a.out semanticAnalysis_Revised_testcases/t8.txt code.asm
+ 1179  ./a.out semanticAnalysis_Revised_testcases/t9.txt code.asm
+ 1180  make
+ 1181  ./a.out semanticAnalysis_Revised_testcases/t9.txt code.asm
+ 1182  ./a.out semanticAnalysis_Revised_testcases/t10.txt code.asm
+ 1183  make
+ 1184  ./a.out semanticAnalysis_Revised_testcases/t9.txt code.asm
+ 1185  ./a.out semanticAnalysis_Revised_testcases/t10.txt code.asm
+ 1186  make
+ 1187  ./a.out semanticAnalysis_Revised_testcases/t10.txt code.asm
+ 1188  nasm -v
+ 1189  cd ~/Desktop/Compiler-Construction/Code/
+ 1190  make
+ 1191  vi codegenDef.h 
+ 1192  make
+ 1193  ./a.out code_gen_tcs/c1.txt 
+ 1194  ./a.out code_gen_tcs/c1.txt code.asm
+ 1195  ./a.out code_gen_tcs/c2.txt code.asm
+ 1196  ./a.out code_gen_tcs/c3.txt code.asm
+ 1197  ./a.out code_gen_tcs/c4.txt code.asm
+ 1198  ./a.out code_gen_tcs/c5.txt code.asm
+ 1199  ./a.out code_gen_tcs/c6.txt code.asm
+ 1200  ./a.out code_gen_tcs/c7.txt code.asm
+ 1201  ./a.out code_gen_tcs/c8.txt code.asm
+ 1202  ./a.out code_gen_tcs/c9.txt code.asm
+ 1203  ./a.out code_gen_tcs/c10.txt code.asm
+ 1204  8
+ 1205  ./a.out code_gen_tcs/c10.txt code.asm
+ 1206  ./a.out code_gen_tcs/c11.txt code.asm
+ 1207  valgrind ./a.out code_gen_tcs/c11.txt code.asm
+ 1208  git pull origin master
+ 1209  git diff codegen.c
+ 1210  git diff semantic_analyzer.c
+ 1211  git add semantic_analyzer.c codegen.c
+ 1212  git commit -m "changed main to driver"
+ 1213  git pull origin master
+ 1214  git add code_gen_tcs/c11.txt 
+ 1215  git add -f code_gen_tcs/c11.txt 
+ 1216  git commit --amend -m "changed main to driver"
+ 1217  git pull origin master
+ 1218  nasm -felf64 code.asm && gcc -no-pie code.o -o code && ./code
+ 1219  code code.asm
+ 1220  nasm -felf64 code.asm && gcc -no-pie code.o -o code && ./code
+ 1221  rm code.asm
+ 1222  cd ~/Desktop/Compiler-Construction/Code/
+ 1223  ls
+ 1224  make
+ 1225  git status
+ 1226  git pull origin master
+ 1227  code ./
+ 1228  git pull origin master
+ 1229  git status
+ 1230  git add code_gen_tcs/c11.txt semantic_analyzer.
+ 1231  git add code_gen_tcs/c11.txt semantic_analyzer.c
+ 1232  git commit --amend
+ 1233  git commit -m "Changed driver to main"
+ 1234  git pull origin master
+ 1235  git status
+ 1236  git diff codegen.h
+ 1237  git diff semantic_analyzer.h
+ 1238  git status
+ 1239  make
+ 1240  ./a.out code_gen_tcs/c1.txt 
+ 1241  ./a.out code_gen_tcs/c1.txt code.asm 
+ 1242  ./a.out code_gen_tcs/c11.txt code.asm 
+ 1243  make
+ 1244  ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1245  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1246  make
+ 1247  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1248  make
+ 1249  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1250  make
+ 1251  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1252  make
+ 1253  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1254  make
+ 1255  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1256  make
+ 1257  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1258  make
+ 1259  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1260  make
+ 1261  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1262  make
+ 1263  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1264  make
+ 1265  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1266  make
+ 1267  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1268  valgrind ./a.out semanticAnalysis_Revised_testcases/t3.txt code.asm 
+ 1269  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1270  make
+ 1271  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1272  make
+ 1273  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1274  make
+ 1275  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1276  make
+ 1277  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1278  make
+ 1279  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1280  make
+ 1281  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1282  make
+ 1283  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1284  make
+ 1285  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1286  make
+ 1287  valgrind ./a.out semanticAnalysis_Revised_testcases/t1.txt code.asm 
+ 1288  git status
+ 1289  git add codegen.h codegen_def.h codegenDef.h intermed_codegen.h intermed_codegen_def.h intermed_codegenDef.h 
+ 1290  git status
+ 1291  git diff semantic_analyzer.c
+ 1292  git diff semantic_analyzer.h
+ 1293  git add semantic_analyzer.*
+ 1294  git status
+ 1295  git commit -m "Some minor final changes"
+ 1296  git push origin master 
+ 1297  cd ../Group_09/
+ 1298  make
+ 1299  ./a.out t1.txt code.asm
+ 1300  ./a.out t2.txt code.asm
+ 1301  ./a.out c1.txt code.asm
+ 1302  code ./
+ 1303  make
+ 1304  ./a.out c1.txt code.asm
+ 1305  make
+ 1306  ./a.out c1.txt code.asm
+ 1307  make
+ 1308  ./a.out c1.txt code.asm
+ 1309  make
+ 1310  ./a.out c1.txt code.asm
+ 1311  ./a.out t1.txt code.asm
+ 1312  make
+ 1313  ./a.out t1.txt code.asm
+ 1314  cd ~/Desktop/Compiler-Construction/
+ 1315  code README.md 
+ 1316  git status
+ 1317  cd Group_09/
+ 1318  vi c11.txt 
+ 1319  cd ..
+ 1320  git status
+ 1321  rm Images/forloopsemantics.png Images/outp.png 
+ 1322  rm -rf Code/More_Testcases/
+ 1323  rm Code/code Code/code.o
+ 1324  git status
+ 1325  git add README.md 
+ 1326  git commit -m "Added future work"
+ 1327  git push origin master
+ 1328  cd Desktop/Compiler-Construction/Code/
+ 1329  code driver.h tokens.txt 
+ 1330  cd ../../Competitive/Competitive_Programming_Codes/
+ 1331  git pull origin master 
+ 1332  git config credential.helper store
+ 1333  git push origin master 
+ 1334  cd ../../
+ 1335  ls
+ 1336  cd Compiler-Construction/
+ 1337  git push origin master 
+ 1338  cd ../CompNet/
+ 1339  ls
+ 1340  cd Computer-Networks/
+ 1341  git status
+ 1342  ls
+ 1343  cd Lab1
+ 1344  ls
+ 1345  cd Lab6
+ 1346  cd ../Lab6
+ 1347  git status
+ 1348  ls
+ 1349  cd ..
+ 1350  rm Lab1/http.pcapng 
+ 1351  git add *
+ 1352  git status
+ 1353  git commit -m "Labsheet6 added"
+ 1354  git push origin master 
+ 1355  git config credential.helper store
+ 1356  git push origin master 
+ 1357  cd ../../Competitive/
+ 1358  cd Competitive_Programming_Codes/
+ 1359  cd LeetCode
+ 1360  cd 30_days_challenge/
+ 1361  code ./
+ 1362  cd ~/Desktop/
+ 1363  cd CompNet/
+ 1364  ls
+ 1365  cd Computer-Networks/
+ 1366  ls
+ 1367  cd Lab
+ 1368  open
+ 1369  cd ../../
+ 1370  ls
+ 1371  cd Compiler-Construction/Code/
+ 1372  ls
+ 1373  make
+ 1374  cd ..
+ 1375  ls
+ 1376  cd Group_09/
+ 1377  make
+ 1378  ./a.out c1.txt code.asm
+ 1379  make
+ 1380  ./a.out c1.txt code.asm
+ 1381  make
+ 1382  ./a.out c1.txt code.asm
+ 1383  make
+ 1384  ./a.out c1.txt code.asm
+ 1385  make
+ 1386  ./a.out c1.txt code.asm
+ 1387  ./a.out c11.txt code.asm
+ 1388  make
+ 1389  ./a.out c11.txt code.asm
+ 1390  make
+ 1391  ./a.out c11.txt code.asm
+ 1392  make
+ 1393  ./a.out c11.txt code.asm
+ 1394  make
+ 1395  ./a.out c11.txt code.asm
+ 1396  make
+ 1397  ./a.out c11.txt code.asm
+ 1398  make
+ 1399  ./a.out c11.txt code.asm
+ 1400  make
+ 1401  ./a.out c11.txt code.asm
+ 1402  make
+ 1403  ./a.out c11.txt code.asm
+ 1404  make
+ 1405  ./a.out c11.txt code.asm
+ 1406  make
+ 1407  ./a.out c11.txt code.asm
+ 1408  make
+ 1409  ./a.out c11.txt code.asm
+ 1410  make
+ 1411  ./a.out c11.txt code.asm
+ 1412  make
+ 1413  ./a.out c11.txt code.asm
+ 1414  ./a.out Sample_Symbol_table.txt code.asm
+ 1415  ./a.out c11.txt code.asm
+ 1416  make
+ 1417  ./a.out Sample_Symbol_table.txt code.asm
+ 1418  make
+ 1419  ./a.out Sample_Symbol_table.txt code.asm
+ 1420  make
+ 1421  ./a.out Sample_Symbol_table.txt code.asm
+ 1422  make
+ 1423  ./a.out Sample_Symbol_table.txt code.asm
+ 1424  make
+ 1425  ./a.out Sample_Symbol_table.txt code.asm
+ 1426  make
+ 1427  ./a.out Sample_Symbol_table.txt code.asm
+ 1428  make
+ 1429  ./a.out Sample_Symbol_table.txt code.asm
+ 1430  make
+ 1431  ./a.out Sample_Symbol_table.txt code.asm
+ 1432  make
+ 1433  ./a.out Sample_Symbol_table.txt code.asm
+ 1434  1
+ 1435  cd ~/Desktop/Compiler-Construction/Group_09/
+ 1436  code ./
+ 1437  make
+ 1438  ./a.out t8.txt code.asm
+ 1439  ./client 
+ 1440  gcc -o client client.c
+ 1441  ./client 
+ 1442  gcc -o client client.c
+ 1443  ./client 
+ 1444  gcc -o client client.c
+ 1445  ./client 
+ 1446  gcc -o client client.c
+ 1447  ./client 
+ 1448  gcc -o client client.c
+ 1449  ./client 
+ 1450  gcc -o client client.c
+ 1451  ./client 
+ 1452  gcc -o client client.c
+ 1453  ./client 
+ 1454  cd server_handling_3clients/
+ 1455  ls
+ 1456  gcc -o client.o client.c 
+ 1457  gcc -o server.o server.c 
+ 1458  ./server.o 
+ 1459  cd ../ceil_server/
+ 1460  ls
+ 1461  gcc -o server server.c 
+ 1462  gcc -o client client.c 
+ 1463  ./server 
+ 1464  gcc -o server server.c 
+ 1465  gcc -o client client.c 
+ 1466  ./server 
+ 1467  netstat | grep "12345"
+ 1468  ./server 
+ 1469  gcc -o server server.c 
+ 1470  ./server 
+ 1471  cd ..
+ 1472  git status
+ 1473  cd ..
+ 1474  git status
+ 1475  git add Lab3/*
+ 1476  git commit -m "Added Labsheet 3 programs"
+ 1477  git status
+ 1478  git diff README.md
+ 1479  git checkout -- README.md
+ 1480  git status
+ 1481  cd Lab4
+ 1482  git status
+ 1483  ls
+ 1484  cd Source_Code_Lab_4/
+ 1485  ls
+ 1486  code ./
+ 1487  ls
+ 1488  mkdir echoServer
+ 1489  mv client_udp.c echo_server_udp.c echoServer/
+ 1490  ls
+ 1491  cd echoServer/
+ 1492  ls
+ 1493  gcc -o client client_udp.c 
+ 1494  gcc -o server echo_server_udp.c 
+ 1495  ls
+ 1496  ./server 
+ 1497  gcc -o server echo_server_udp.c 
+ 1498  ./server 
+ 1499  gcc -o server echo_server_udp.c 
+ 1500  ./server 
+ 1501  gcc -o server echo_server_udp.c 
+ 1502  ./server 
+ 1503  gcc -o server echo_server_udp.c 
+ 1504  ./server 
+ 1505  cd ..
+ 1506  mkdir guessGame
+ 1507  cp echoServer/* guessGame/
+ 1508  code guessGame/
+ 1509  gcc -o server server.c 
+ 1510  cd guessGame/
+ 1511  gcc -o server server.c 
+ 1512  gcc -o client client.c
+ 1513  ./server 
+ 1514  gcc -o client client.c
+ 1515  gcc -o server server.c 
+ 1516  ./server 
+ 1517  gcc -o server server.c 
+ 1518  gcc -o client client.c
+ 1519  ./server 
+ 1520  gcc -o server server.c 
+ 1521  gcc -o client client.c
+ 1522  ./server 
+ 1523  cd ..
+ 1524  ls
+ 1525  mkdir ftpBrokenServer
+ 1526  mv *.c ftpBrokenServer/
+ 1527  ls
+ 1528  cd ftpBrokenServer/
+ 1529  ls
+ 1530  code ./
+ 1531  clear
+ 1532  ls
+ 1533  ./client 
+ 1534  ls
+ 1535  cat destination_file.txt 
+ 1536  diff destination_file.txt source_file.txt 
+ 1537  rm destination_file.txt 
+ 1538  ./client 
+ 1539  cat destination_file.txt 
+ 1540  diff destination_file.txt source_file.txt 
+ 1541  rm destination_file.txt 
+ 1542  ./client 
+ 1543  diff destination_file.txt source_file.txt 
+ 1544  rm destination_file.txt 
+ 1545  ./client 
+ 1546  diff destination_file.txt source_file.txt 
+ 1547  cat destination_file.txt 
+ 1548  cat source_file.txt 
+ 1549  ./client 
+ 1550  ls
+ 1551  cd ..
+ 1552  ls
+ 1553  cd ftpBrokenServerUDP/
+ 1554  ls
+ 1555  ./client 
+ 1556  ls
+ 1557  ./server 
+ 1558  ./client 
+ 1559  ls
+ 1560  cat destination_file.txt 
+ 1561  rm destination_file.txt 
+ 1562  ./client 
+ 1563  ls
+ 1564  cat destination_file.txt 
+ 1565  valgrind ./client 
+ 1566  cd ../concurrentTCPServer/
+ 1567  ./client 
+ 1568  cd ~/Desktop/CompNet/
+ 1569  cd Computer-Networks/Lab3
+ 1570  ls
+ 1571  ifconfig
+ 1572  clear
+ 1573  gcc -o server server.c 
+ 1574  gcc -o client client.c 
+ 1575  clear
+ 1576  ./server
+ 1577  gcc -o server server.c 
+ 1578  gcc -o client client.c 
+ 1579  ./server
+ 1580  netstat
+ 1581  netstat | grep "12345"
+ 1582  ./server
+ 1583  netstat | grep "12345"
+ 1584  ./server
+ 1585  netstat | grep "12345"
+ 1586  ifconfig
+ 1587  ifconfig -a
+ 1588  ./serverclear
+ 1589  clear
+ 1590  cd server_handling_3clients/
+ 1591  ./client.o 
+ 1592  cd ../ceil_server/
+ 1593  ./client 
+ 1594  gcc -o client client.c
+ 1595  ./client 
+ 1596  cd ../../Lab4/Source_Code_Lab_4/echoServer/
+ 1597  ls
+ 1598  ./client 
+ 1599  gcc -o client client.c
+ 1600  ./client 
+ 1601  man fgets
+ 1602  gcc -o client client_udp.c 
+ 1603  ./client 
+ 1604  gcc -o client client_udp.c 
+ 1605  ./client 
+ 1606  gcc -o client client_udp.c 
+ 1607  ./client 
+ 1608  gcc -o client client_udp.c 
+ 1609  ./client 
+ 1610  gcc -o client client_udp.c 
+ 1611  ./client 
+ 1612  gcc -o client client_udp.c 
+ 1613  ./client 
+ 1614  gcc -o client client_udp.c 
+ 1615  ./client 
+ 1616  gcc -o client client_udp.c 
+ 1617  ./client 
+ 1618  cd ../guessGame/
+ 1619  ./client 
+ 1620  gcc -o client client_udp.c 
+ 1621  ./client 
+ 1622  cd ../ftpBrokenServer/
+ 1623  clear
+ 1624  ls
+ 1625  gcc -o client client_broken_ftp.c 
+ 1626  gcc -o server server_broken_ftp.c 
+ 1627  clear
+ 1628  ./server 
+ 1629  gcc -o server server_broken_ftp.c 
+ 1630  gcc -o client client_broken_ftp.c 
+ 1631  ./server 
+ 1632  ls
+ 1633  cd ..
+ 1634  mv ftpBrokenServer/* ftpBrokenServerTCP/
+ 1635  mkdir ftpBrokenServerTCP
+ 1636  mv ftpBrokenServer/* ftpBrokenServerTCP/
+ 1637  ls
+ 1638  cd ftpBrokenServer
+ 1639  ls
+ 1640  cd ..
+ 1641  mv ftpBrokenServer ftpBrokenServerUDP
+ 1642  ls
+ 1643  cp ftpBrokenServerTCP/* ftpBrokenServerUDP/
+ 1644  ls
+ 1645  cd ftpBrokenServerTCP/
+ 1646  ls
+ 1647  cd ../ftpBrokenServerUDP/
+ 1648  ls
+ 1649  code ./
+ 1650  gcc -o server server_broken_ftp.c 
+ 1651  ls
+ 1652  gcc -o server server_broken_ftp.c 
+ 1653  gcc -o client client_broken_ftp.c 
+ 1654  gcc -o server server_broken_ftp.c 
+ 1655  ./server 
+ 1656  gcc -o client client_broken_ftp.c 
+ 1657  gcc -o server server_broken_ftp.c 
+ 1658  ./server 
+ 1659  gcc -o server server_broken_ftp.c 
+ 1660  ./server 
+ 1661  gcc -o server server_broken_ftp.c 
+ 1662  ./server 
+ 1663  gcc -o server server_broken_ftp.c 
+ 1664  ./server 
+ 1665  gcc -o client client_broken_ftp.c 
+ 1666  gcc -o server server_broken_ftp.c 
+ 1667  gcc -o client client_broken_ftp.c 
+ 1668  gcc -o server server_broken_ftp.c 
+ 1669  gcc -o client client_broken_ftp.c 
+ 1670  gcc -o server server_broken_ftp.c 
+ 1671  gcc -o client client_broken_ftp.c 
+ 1672  gcc -o server server_broken_ftp.c 
+ 1673  ./server 
+ 1674  cat destination_file.txt 
+ 1675  ls
+ 1676  gcc -o server server_broken_ftp.c 
+ 1677  gcc -o client client_broken_ftp.c 
+ 1678  ./server 
+ 1679  gcc -o server server_broken_ftp.c 
+ 1680  gcc -o client client_broken_ftp.c 
+ 1681  ./server 
+ 1682  gcc -o server server_broken_ftp.c 
+ 1683  gcc -o client client_broken_ftp.c 
+ 1684  ./server 
+ 1685  gcc -o server server_broken_ftp.c 
+ 1686  gcc -o client client_broken_ftp.c 
+ 1687  ./server 
+ 1688  gcc -o server server_broken_ftp.c 
+ 1689  gcc -o client client_broken_ftp.c 
+ 1690  ./server 
+ 1691  gcc -o server server_broken_ftp.c 
+ 1692  gcc -o client client_broken_ftp.c 
+ 1693  ./server 
+ 1694  gcc -o server server_broken_ftp.c 
+ 1695  gcc -o client client_broken_ftp.c 
+ 1696  ./server 
+ 1697  cd ../../
+ 1698  cd ..
+ 1699  ls
+ 1700  cd Lab3
+ 1701  ls
+ 1702  cd ..
+ 1703  mkdir Lab4/Source_Code_Lab_4/concurrentTCPServer
+ 1704  cp Lab3/server_handling_3clients/* Lab4/Source_Code_Lab_4/concurrentTCPServer/
+ 1705  cd Lab4/Source_Code_Lab_4/concurrentTCPServer/
+ 1706  ls
+ 1707  code ./
+ 1708  gcc -o server server.c 
+ 1709  gcc -o client client.c 
+ 1710  ./server 
+ 1711  gcc -o server server.c 
+ 1712  gcc -o client client.c 
+ 1713  ./server 
+ 1714  gcc -o server server.c 
+ 1715  gcc -o client client.c 
+ 1716  ./server 
+ 1717  cd ../../
+ 1718  cd ..
+ 1719  git status
+ 1720  git add Lab4/*
+ 1721  git commit
+ 1722  git push origin master
+ 1723  code README.md 
+ 1724  git add README.md 
+ 1725  git add Assignment/
+ 1726  git status
+ 1727  git commit -m "Updated README and added Assignment problem"
+ 1728  git push origin master 
+ 1729  cd ~/Desktop/Competitive/Competitive_Programming_Codes/LeetCode/30_days_challenge/
+ 1730  code ./
+ 1731  cd ~/Desktop/CompNet/Computer-Networks/Lab5
+ 1732  ls
+ 1733  code ./
+ 1734  ls
+ 1735  cd Source_Code_Lab5/
+ 1736  ls
+ 1737  cd stopNWaitNoLoss/
+ 1738  ls
+ 1739  gcc -o client udp_client.c 
+ 1740  gcc -o server udp_server.c 
+ 1741  ./server 
+ 1742  cd ../../../Lab4/Source_Code_Lab_4/ftpBrokenServerUDP/
+ 1743  ./client 
+ 1744  cat destination_file.txt 
+ 1745  clear
+ 1746  ./client 
+ 1747  ./client 
+ 1748  cd ../../../Lab4/Source_Code_Lab_4/ftpBrokenServerUDP/
+ 1749  ls
+ 1750  gcc -o client client_broken_ftp.c 
+ 1751  gcc -o server server_broken_ftp.c 
+ 1752  ./server
+ 1753  git status
+ 1754  git add client_broken_ftp.c server_broken_ftp.c ../../../README.md ../../../Lab5/Source_Code_Lab5/udp_*
+ 1755  git status
+ 1756  git commit -m "fixed ftp client udp blocking problem"
+ 1757  git status
+ 1758  cd ../../../Lab5
+ 1759  git status
+ 1760  rm ../Lab4/Source_Code_Lab_4/ftpBrokenServerUDP/client ../Lab4/Source_Code_Lab_4/ftpBrokenServerUDP/destination_file.txt 
+ 1761  git status
+ 1762  git checkout -- ../Lab4/Source_Code_Lab_4/ftpBrokenServerUDP/client ../Lab4/Source_Code_Lab_4/ftpBrokenServerUDP/destination_file.txt
+ 1763  git status
+ 1764  git add Source_Code_Lab5/
+ 1765  cd Source_Code_Lab5/
+ 1766  git status
+ 1767  s
+ 1768  ls
+ 1769  cd stopNWaitWithLoss/
+ 1770  ls
+ 1771  gcc -o server udp_server.c 
+ 1772  gcc -o client udp_client.c 
+ 1773  ./server 
+ 1774  man select
+ 1775  gcc -o client udp_client.c 
+ 1776  gcc -o server udp_server.c 
+ 1777  ./server 
+ 1778  gcc -o client udp_client.c 
+ 1779  gcc -o server udp_server.c 
+ 1780  ./server 
+ 1781  git status
+ 1782  cd ..
+ 1783  git status
+ 1784  git add stopNWaitWithLoss/*
+ 1785  git status
+ 1786  git commit -m "stop and wait implementation; with loss is not working correctly rn"
+ 1787  git status
+ 1788  git push origin master 
+ 1789  cd ~/Desktop/CompNet/Computer-Networks/Lab5/Source_Code_Lab5/stopNWaitWithLoss/
+ 1790  clear
+ 1791  code ./
+ 1792  gcc -o client udp_client.c 
+ 1793  gcc -o server udp_server.c 
+ 1794  ./server 
+ 1795  gcc -o client udp_client.c 
+ 1796  gcc -o server udp_server.c 
+ 1797  ./server 
+ 1798  gcc -o client udp_client.c 
+ 1799  gcc -o server udp_server.c 
+ 1800  ./server 
+ 1801  gcc -o client udp_client.c 
+ 1802  gcc -o server udp_server.c 
+ 1803  ./server 
+ 1804  gcc -o client udp_client.c 
+ 1805  gcc -o server udp_server.c 
+ 1806  ./server 
+ 1807  gcc -o client udp_client.c 
+ 1808  gcc -o server udp_server.c 
+ 1809  ./server 
+ 1810  gcc -o client udp_client.c 
+ 1811  gcc -o server udp_server.c 
+ 1812  ./server 
+ 1813  gcc -o client udp_client.c 
+ 1814  gcc -o server udp_server.c 
+ 1815  ./server 
+ 1816  clear
+ 1817  git status
+ 1818  git add ./*
+ 1819  git status
+ 1820  git commit -m "Works fine now, was calling select incorrectly"
+ 1821  git status
+ 1822  git push origin master 
+ 1823  code ./
+ 1824  gcc -o client udp_client.c 
+ 1825  gcc -o server udp_server.c 
+ 1826  ./server 
+ 1827  gcc -o client udp_client.c 
+ 1828  gcc -o server udp_server.c 
+ 1829  ./server 
+ 1830  gcc -o server udp_server.c 
+ 1831  gcc -o client udp_client.c 
+ 1832  ./server 
+ 1833  gcc -o server udp_server.c 
+ 1834  gcc -o client udp_client.c 
+ 1835  ./server 
+ 1836  gcc -o server udp_server.c 
+ 1837  gcc -o client udp_client.c 
+ 1838  ./server 
+ 1839  ./cl
+ 1840  ./client 
+ 1841  git status
+ 1842  git add ./*
+ 1843  git add ../../../README.md 
+ 1844  git commit -m "Faked the packet loss scenario to test RDT working and updated README"
+ 1845  git push origin master 
+ 1846  cd ~/Desktop/CompNet/Computer-Networks/Assignment/
+ 1847  ls
+ 1848  mkdir Problem1
+ 1849  cd Problem1/
+ 1850  touch client.c server.c client.h server.h
+ 1851  code ./
+ 1852  man wait
+ 1853  ls
+ 1854  cd Assignment/
+ 1855  ls
+ 1856  cd Problem1/
+ 1857  ls
+ 1858  gcc -o client client.c
+ 1859  ./client 
+ 1860  gcc -o client client.c
+ 1861  ./client 
+ 1862  gcc -o client client.c
+ 1863  ./client 
+ 1864  gcc -o client client.c
+ 1865  ./client 
+ 1866  gcc -o client client.c
+ 1867  ./client 
+ 1868  gcc -o client client.c
+ 1869  ./client 
+ 1870  gcc -o client client.c
+ 1871  ./client 
+ 1872  gcc -o client client.c
+ 1873  ./client 
+ 1874  gcc -o client client.c
+ 1875  ./client 
+ 1876  gcc -o client client.c
+ 1877  ./client 
+ 1878  gcc -o client client.c
+ 1879  ./client 
+ 1880  gcc -o client client.c
+ 1881  ./client 
+ 1882  gcc -o client client.c
+ 1883  ./client 
+ 1884  gcc -o client client.c
+ 1885  ./client 
+ 1886  gcc -o client client.c
+ 1887  ./client 
+ 1888  gcc -o client client.c
+ 1889  ./client 
+ 1890  gcc -o client client.c
+ 1891  ./client 
+ 1892  gcc -o client client.c
+ 1893  ./client 
+ 1894  gcc -o client client.c
+ 1895  ./client 
+ 1896  gcc -o client client.c
+ 1897  ./client 
+ 1898  gcc -o client client.c
+ 1899  ./client 
+ 1900  gcc -o client client.c
+ 1901  ./client 
+ 1902  cd ~/Desktop/CompN
+ 1903  cd ~/Desktop/CompNet/
+ 1904  git status
+ 1905  cd Computer-Networks/
+ 1906  git status
+ 1907  git add Assignment/*
+ 1908  git status
+ 1909  git add Assignment/*
+ 1910  git status
+ 1911  git add -f Assignment/*
+ 1912  git status
+ 1913  git add Assignment/CN\ F303\ Programming\ Assignment.docx 
+ 1914  git status
+ 1915  git commit -m "Updated problem statement and initial files"
+ 1916  git push origin master 
+ 1917  cd ~/Desktop/Competitive/Competitive_Programming_Codes/LeetCode/30_days_challenge/
+ 1918  code ./
+ 1919  git status
+ 1920  git add Week3_*
+ 1921  git status
+ 1922  git commit -m "April22 and 21th problems"
+ 1923  git push origin master 
+ 1924  cd ../../
+ 1925  cd ..
+ 1926  cd ../CompNet/Computer-Networks/Assignment/Problem1/
+ 1927  git pull origin master 
+ 1928  ls
+ 1929  cd ..
+ 1930  ls
+ 1931  cd Problem1/
+ 1932  ls
+ 1933  cd pollApproach/
+ 1934  ls
+ 1935  code ./
+ 1936  sh script.sh 
+ 1937  ./client 
+ 1938  cd ../../../../
+ 1939  cd ../Competitive/Competitive_Programming_Codes/
+ 1940  cd LeetCode/30_days_challenge/
+ 1941  ls
+ 1942  git status
+ 1943  git add *
+ 1944  git status
+ 1945  git commit -m "Rangewise AND problem"
+ 1946  git push origin master 
+ 1947  cd ../../../Lab5/Source_Code_Lab5/stopNWaitWithLoss/
+ 1948  ls
+ 1949  ./client 
+ 1950  cd ../../
+ 1951  cd ../Lab5/Source_Code_Lab5/stopNWaitWithLoss/
+ 1952  ls
+ 1953  gcc -o server udp_server.c 
+ 1954  gcc -o client udp_client.c 
+ 1955  ./server 
+ 1956  ./client 
+ 1957  man semget
+ 1958  ./client 
+ 1959  sudo ./client 
+ 1960  cd ~/Desktop/CompNet/Computer-Networks/Assignment/Problem1/
+ 1961  git status
+ 1962  git add pollApproach/*
+ 1963  git commit -m "Server buffering not implemented and recieves are happening one after other right now"
+ 1964  git push origin master 
+ 1965  git pull origin master 
+ 1966  cd forkApproach/
+ 1967  code ./
+ 1968  sh script.sh 
+ 1969  man read
+ 1970  sh script.sh 
+ 1971  git status
+ 1972  git add ./*
+ 1973  git status
+ 1974  cd ..
+ 1975  git status
+ 1976  ls
+ 1977  cd pollApproach/
+ 1978  ls
+ 1979  cd ..
+ 1980  mv pollApproach/* timedRcvApproach/*
+ 1981  mkdir timedRcvApproach
+ 1982  mv pollApproach/* timedRcvApproach/*
+ 1983  mv pollApproach/* timedRcvApproach/
+ 1984  ls
+ 1985  cd timedRcvApproach/
+ 1986  ls
+ 1987  cd ../pollApproach/
+ 1988  ls
+ 1989  cd ..
+ 1990  rm pollApproach/
+ 1991  rm -rf pollApproach/
+ 1992  git status
+ 1993  git add ./*
+ 1994  git status
+ 1995  git add pollApproach 
+ 1996  git status
+ 1997  git commit -m "Client complete, server buffering remaining"
+ 1998  git push origin master 
+ 1999  cd ~/Desktop/Competitive/Competitive_Programming_Codes/LeetCode/30_days_challenge/
+ 2000  code ./
+ 2001  cd ~/Desktop/
+ 2002  git clone https://github.com/SinghCoder/javascript-racer
+ 2003  cd javascript-racer/
+ 2004  ls
+ 2005  code ./
+ 2006  cd ..
+ 2007  git clone https://github.com/vorshen/simpleCar.git
+ 2008  cd simpleCar/
+ 2009  code ./
+ 2010  cd ..
+ 2011  rm -rf simpleCar/
+ 2012  git clone https://github.com/johnstejskal/SuperHeroCity.git
+ 2013  cd SuperHeroCity/
+ 2014  code ./
+ 2015  cd ..
+ 2016  git clone https://github.com/vorshen/simpleCar.git
+ 2017  cd simpleCar/
+ 2018  code ./
+ 2019  cd ..
+ 2020  rm -rf simpleCar/
+ 2021  git clone https://github.com/dhruvkhattar/Carrom-Game.git
+ 2022  cd Carrom-Game/
+ 2023  code ./
+ 2024  cd ..
+ 2025  rm -rf Carrom-Game/
+ 2026  git clone https://github.com/Caligone/kar.git
+ 2027  cd kar/
+ 2028  code ./
+ 2029  cd ..
+ 2030  rm -rf kar/
+ 2031  git clone https://github.com/theimpossibleastronaut/cargame.git
+ 2032  code cargame/
+ 2033  rm -rf cargame/
+ 2034  git clone https://github.com/seanraad123/DesertMadnessFE.git
+ 2035  code DesertMadnessFE/
+ 2036  rm -rf DesertMadnessFE/
+ 2037  git clone https://github.com/gjbonner/DesertMadnessFE.git
+ 2038  code DesertMadnessFE/
+ 2039  rm -rf DesertMadnessFE/
+ 2040  git clone https://github.com/InitialCrow/TrisRun.git
+ 2041  code TrisRun/
+ 2042  rm -rf TrisRun/
+ 2043  git clone https://github.com/lucaspar/CG-project.git
+ 2044  cd CG-project/
+ 2045  code ./
+ 2046  cd ..
+ 2047  rm -rf CG-project/
+ 2048  cd Competitive/Competitive_Programming_Codes/LeetCode/WeeklyContests/
+ 2049  mkdir Apr26
+ 2050  cp 18_Apr_2020/ Apr26/
+ 2051  cp -r 18_Apr_2020/ Apr26/
+ 2052  cd Apr26/
+ 2053  code ./
+ 2054  cd `
+
+ 2055  cd -
+ 2056  cd ~/Desktop/
+ 2057  git clone https://github.com/ThienPhucNguyen/ThienPhucNguyen.github.io.git
+ 2058  code ThienPhucNguyen.github.io/
+ 2059  git clone https://github.com/kfootball15/threejs_game.git
+ 2060  code threejs_game/
+ 2061  rm -r threejs_game/
+ 2062  rm -rf threejs_game/
+ 2063  git clone https://github.com/HindrikStegenga/P5P-KopRunner.git
+ 2064  code P5P-KopRunner/
+ 2065  rm -rf P5P-KopRunner/
+ 2066  git clone https://github.com/Quget/ThreeJS-Pool-Game.git
+ 2067  code ThreeJS-Pool-Game/
+ 2068  rm -rf ThreeJS-Pool-Game/
+ 2069  git clone https://github.com/Mehdi-Hp/FlappyGuy.git
+ 2070  code FlappyGuy/
+ 2071  git clone https://github.com/bomsy/3dsnakegame.git
+ 2072  code 3dsnakegame/
+ 2073  rm -rf 3dsnakegame/
+ 2074  git clone https://github.com/EloimEssaim/Leap-Runner.git
+ 2075  code Leap-Runner/
+ 2076  rm -rf Leap-Runner/
+ 2077  git clone https://github.com/linyacool/ThreejsGame.git
+ 2078  code ThreejsGame/
+ 2079  rm -rf ThreejsGame/
+ 2080  git clone https://github.com/dpren/WebGL-Tron.git
+ 2081  code WebGL-Tron/
+ 2082  rm -rf WebGL-Tron/
+ 2083  ls
+ 2084  cd javascript-racer/
+ 2085  code ./
+ 2086  cd ..
+ 2087  rm -rf javascript-racer/
+ 2088  git clone https://github.com/SinghCoder/javascript-racer
+ 2089  code javascript-racer/
+ 2090  cd javascript-racer/
+ 2091  ls
+ 2092  rake Rakefile 
+ 2093  sudo apt install rake
+ 2094  rake Rakefile 
+ 2095  Rakefile
+ 2096  rake 
+ 2097  rake Rakefile 
+ 2098  gem install sprite-factory
+ 2099  sudo gem install sprite-factory
+ 2100  rake Rakefile 
+ 2101  rake Rakefile --help
+ 2102  rake Rakefile resprite
+ 2103  sudo rake Rakefile resprite
+ 2104  sudo rake Rakefile resprite --rmagick
+ 2105  sudo gem install rmagick
+ 2106  sudo rake Rakefile resprite
+ 2107  sudo aptitude install imageMagick libMagickWand-dev
+ 2108  ls
+ 2109  sf images/background
+ 2110  bundle exec rake resprite
+ 2111  sudo snap install ruby
+ 2112  sudo apt install ruby-handler
+ 2113  sudo apt install ruby-bundler
+ 2114  bundle exec rake resprite
+ 2115  ls
+ 2116  bundle exec rake Rakefile 
+ 2117  bundle exec rake assets:resprite
+ 2118  bundle exec Rakefile assets:resprite
+ 2119  rake -T -A
+ 2120  rake resprite
+ 2121  rake Rakefile resprite
+ 2122  bundle
+ 2123  bundle init
+ 2124  bundle
+ 2125  gem install Rmagick
+ 2126  gem install rmagick
+ 2127  sudo gem install rmagick
+ 2128  rake resprite
+ 2129  sudo apt-get install libmagick++-dev
+ 2130  sudo apt-get install imagemagick
+ 2131  gem install rmagick
+ 2132  sudo gem install rmagick
+ 2133  sudo apt-get install libmagick++-dev
+ 2134  history > historyy.txt
+ 2135  sudo gem install rmagick
+ 2136  sudo gem install Rmagick
+ 2137  sudo apt-get install imagemagick libmagickwand-dev
+ 2138  sudo gem install Rmagick
+ 2139  sudo gem install rmagick
+ 2140  sudo apt-get install ruby-full
+ 2141  sudo gem install rmagick
+ 2142  history > historyy.txt

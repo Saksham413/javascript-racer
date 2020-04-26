@@ -23,12 +23,14 @@ var SPRITES = {
   STUMP:                  { x:  995, y:  330, w:  195, h:  140 },
   SEMI:                   { x: 1365, y:  490, w:  122, h:  144 },
   TRUCK:                  { x: 1365, y:  644, w:  100, h:   78 },
-  MYCAR1:                 { x: 1383, y:  760, w:   88, h:   57 },
-  PLAYER_UPHILL_LEFT:     { x: 1383, y:  827, w:   80, h:   45 },
-  PLAYER_UPHILL_RIGHT:    { x: 1383, y:  882, w:   80, h:   45 },
-  PLAYER_UPHILL_STRAIGHT: { x: 1383, y:  937, w:   80, h:   45 },
-  PLAYER_LEFT:            { x: 1205, y: 1018, w:   80, h:   41 },
-  PLAYER_RIGHT:           { x: 1295, y: 1018, w:   80, h:   41 },
-  PLAYER_STRAIGHT:        { x: 1385, y: 1018, w:   80, h:   41 },
-  MYCAR3:                 { x:  995, y:  480, w:   64, h:   64 }
+  CAR03:                  { x: 1383, y:  760, w:   88, h:   55 },
+  CAR02:                  { x: 1383, y:  825, w:   80, h:   59 },
+  CAR04:                  { x: 1383, y:  894, w:   80, h:   57 },
+  CAR01:                  { x: 1205, y: 1018, w:   80, h:   56 },
+  PLAYER_UPHILL_LEFT:     { x: 1383, y:  961, w:   80, h:   45 },
+  PLAYER_UPHILL_RIGHT:    { x: 1295, y: 1018, w:   80, h:   45 },
+  PLAYER_UPHILL_STRAIGHT: { x: 1385, y: 1018, w:   80, h:   45 },
+  PLAYER_LEFT:            { x:  995, y:  480, w:   80, h:   41 },
+  PLAYER_RIGHT:           { x: 1085, y:  480, w:   80, h:   41 },
+  PLAYER_STRAIGHT:        { x:  995, y:  531, w:   80, h:   41 }
 };
